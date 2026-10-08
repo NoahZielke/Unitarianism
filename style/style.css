@@ -58,3 +58,16 @@ blockquote {
     color: inherit;
     text-decoration: underline;
 }
+
+.footer-rule {
+    margin: 1rem 0;
+    border-top: 1px solid rgba(33, 37, 41, 0.25);
+}
+
+hr:not([size]) {
+    height: 0;
+    background: none;
+    border: 0;
+    border-top: 1px solid rgba(33, 37, 41, 0.25);
+    opacity: 1;
+}
